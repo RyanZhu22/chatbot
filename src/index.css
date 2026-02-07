@@ -1,0 +1,26 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #ececf1;
+  --panel: #ffffff;
+  --panel-border: #d9d9e3;
+  --sidebar: #202123;
+  --sidebar-hover: #2a2b32;
+  --text-main: #1f2937;
+  --text-soft: #6b7280;
+  --user-bubble: #10a37f;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #f7f7fb 0%, #ececf1 100%);
+  color: var(--text-main);
+}
+
+#root {
+  min-height: 100vh;
+}
